@@ -1,0 +1,1678 @@
+<sixx.object sixx.id="0" sixx.type="MultiProject" sixx.env="Arduino" >
+	<sixx.object sixx.id="1" sixx.name="projects" sixx.type="OrderedCollection" sixx.env="Core" >
+		<sixx.object sixx.id="2" sixx.type="Project" sixx.env="Arduino" >
+			<sixx.object sixx.id="3" sixx.name="positionStore" sixx.type="ProjectPositionStore" sixx.env="Arduino" >
+				<sixx.object sixx.id="4" sixx.name="projectTreeExpandElements" sixx.type="OrderedCollection" sixx.env="Core" >
+					<sixx.object sixx.type="UndefinedObject" sixx.env="Core" />
+				</sixx.object>
+				<sixx.object sixx.id="5" sixx.name="projectTreeScroolPosition" sixx.type="Point" sixx.env="Core" >0@0</sixx.object>
+				<sixx.object sixx.id="6" sixx.name="basicLibraryExpandElements" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+				<sixx.object sixx.id="7" sixx.name="basicLibraryScroolPosition" sixx.type="Point" sixx.env="Core" >0@0</sixx.object>
+				<sixx.object sixx.name="isCollapseProjectTree" sixx.type="False" sixx.env="Core" />
+				<sixx.object sixx.id="8" sixx.name="projectTreeWidth" sixx.type="SmallInteger" sixx.env="Core" >127</sixx.object>
+				<sixx.object sixx.id="9" sixx.name="schemeScroolPosition" sixx.type="Point" sixx.env="Core" >0@0</sixx.object>
+				<sixx.object sixx.name="isCollapseTagTable" sixx.type="False" sixx.env="Core" />
+				<sixx.object sixx.id="10" sixx.name="projectVariablesSubcanvasHeight" sixx.type="SmallInteger" sixx.env="Core" >257</sixx.object>
+				<sixx.object sixx.name="isCollapseLibraryWidget" sixx.type="False" sixx.env="Core" />
+				<sixx.object sixx.id="11" sixx.name="projectBlockLibrarySubcanvasWidth" sixx.type="SmallInteger" sixx.env="Core" >367</sixx.object>
+				<sixx.object sixx.id="12" sixx.name="tagTableScroolPosition" sixx.type="Point" sixx.env="Core" >0@-48</sixx.object>
+				<sixx.object sixx.id="13" sixx.name="tagsTableExpandElements" sixx.type="OrderedCollection" sixx.env="Core" >
+					<sixx.object sixx.id="14" sixx.type="Symbol" sixx.env="Core" >root</sixx.object>
+					<sixx.object sixx.id="15" sixx.type="Symbol" sixx.env="Core" >input</sixx.object>
+					<sixx.object sixx.id="16" sixx.type="Symbol" sixx.env="Core" >output</sixx.object>
+					<sixx.object sixx.id="17" sixx.type="Symbol" sixx.env="Core" >globalVariable</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.id="18" sixx.name="selectedLibraryIndex" sixx.type="SmallInteger" sixx.env="Core" >1</sixx.object>
+			</sixx.object>
+			<sixx.object sixx.id="19" sixx.name="settings" sixx.type="ProjectSettings" sixx.env="Arduino" >
+				<sixx.object sixx.name="useExternalReferenceVoltage" sixx.type="False" sixx.env="Core" />
+			</sixx.object>
+			<sixx.object sixx.name="programmVersionNambeLastPart" sixx.idref="18" />
+			<sixx.object sixx.id="20" sixx.name="programmVersionNamberFirstPart" sixx.type="SmallInteger" sixx.env="Core" >4</sixx.object>
+			<sixx.object sixx.name="programmVersionNamberSecondPart" sixx.idref="18" />
+			<sixx.object sixx.id="21" sixx.name="programm" sixx.type="FBDProgramm" sixx.env="Arduino" >
+				<sixx.object sixx.id="22" sixx.name="networks" sixx.type="OrderedCollection" sixx.env="Core" >
+					<sixx.object sixx.id="23" sixx.type="FBDNetWork" sixx.env="Arduino" >
+						<sixx.object sixx.id="24" sixx.name="label" sixx.type="NetworkLabel" sixx.env="Arduino" >
+							<sixx.object sixx.id="25" sixx.name="comment" sixx.type="String" sixx.env="Core" ></sixx.object>
+							<sixx.object sixx.name="name" sixx.idref="25" />
+							<sixx.object sixx.name="isCollapse" sixx.type="False" sixx.env="Core" />
+							<sixx.object sixx.name="isNotCompile" sixx.type="False" sixx.env="Core" />
+							<sixx.object sixx.name="isFulfillmentOfTheCondition" sixx.type="False" sixx.env="Core" />
+							<sixx.object sixx.name="isRunInALoop" sixx.type="False" sixx.env="Core" />
+						</sixx.object>
+						<sixx.object sixx.id="26" sixx.name="blocks" sixx.type="OrderedCollection" sixx.env="Core" >
+							<sixx.object sixx.id="27" sixx.type="SendToUartBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="28" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >270@0</sixx.object>
+								<sixx.object sixx.id="29" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >290@0 corner: 370@60</sixx.object>
+								<sixx.object sixx.id="30" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >270@0 corner: 390@60</sixx.object>
+								<sixx.object sixx.id="31" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >296.5d@13.5d</sixx.object>
+								<sixx.object sixx.id="32" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+									<sixx.object sixx.id="33" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.id="34" sixx.name="key" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+											<sixx.object sixx.name="block" sixx.idref="27" />
+											<sixx.object sixx.id="35" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+												<sixx.object sixx.id="36" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+													<sixx.object sixx.id="37" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+														<sixx.object sixx.id="38" sixx.name="block" sixx.type="FBDTimerBlock" sixx.env="Arduino" >
+															<sixx.object sixx.id="39" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >140@0</sixx.object>
+															<sixx.object sixx.id="40" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >160@0 corner: 220@40</sixx.object>
+															<sixx.object sixx.id="41" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >140@0 corner: 240@40</sixx.object>
+															<sixx.object sixx.id="42" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >179.0d@13.5d</sixx.object>
+															<sixx.object sixx.id="43" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="44" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.id="45" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																		<sixx.object sixx.name="block" sixx.idref="38" />
+																		<sixx.object sixx.id="46" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																		</sixx.object>
+																		<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																		<sixx.object sixx.id="47" sixx.name="name" sixx.type="String" sixx.env="Core" >EN</sixx.object>
+																		<sixx.object sixx.id="48" sixx.name="constant" sixx.type="Constant" sixx.env="Arduino" >
+																			<sixx.object sixx.name="type" sixx.idref="46" />
+																			<sixx.object sixx.name="value" sixx.type="True" sixx.env="Core" />
+																		</sixx.object>
+																		<sixx.object sixx.id="49" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >140@30</sixx.object>
+																		<sixx.object sixx.id="50" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >160@30</sixx.object>
+																		<sixx.object sixx.id="51" sixx.name="constantInseptPoint" sixx.type="Point" sixx.env="Core" >120.0d@33.5d</sixx.object>
+																		<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																	</sixx.object>
+																	<sixx.object sixx.id="52" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >140@20 corner: 160@40</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="53" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="37" />
+																	<sixx.object sixx.id="54" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >220@20 corner: 240@40</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.id="55" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="56" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="45" />
+																	<sixx.object sixx.name="value" sixx.idref="49" />
+																</sixx.object>
+																<sixx.object sixx.id="57" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="37" />
+																	<sixx.object sixx.id="58" sixx.name="value" sixx.type="Point" sixx.env="Core" >240@30</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.id="59" sixx.name="bitNumber" sixx.type="SmallInteger" sixx.env="Core" >2</sixx.object>
+															<sixx.object sixx.id="60" sixx.name="type" sixx.type="TimerBasicBlockType" sixx.env="Arduino" >
+															</sixx.object>
+															<sixx.object sixx.id="61" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.idref="37" />
+															</sixx.object>
+															<sixx.object sixx.id="62" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.idref="45" />
+															</sixx.object>
+															<sixx.object sixx.id="63" sixx.name="constantValue" sixx.type="TimeConstantOrExternal" sixx.env="Arduino" >
+																<sixx.object sixx.name="isConstant" sixx.type="True" sixx.env="Core" />
+																<sixx.object sixx.name="constantTypeIsMilli" sixx.type="False" sixx.env="Core" />
+																<sixx.object sixx.id="64" sixx.name="value" sixx.type="SmallInteger" sixx.env="Core" >3000</sixx.object>
+																<sixx.object sixx.name="valueInputTimeMillisType" sixx.type="True" sixx.env="Core" />
+																<sixx.object sixx.name="valueTypeIsMicros" sixx.type="False" sixx.env="Core" />
+																<sixx.object sixx.name="valueTypeIsMinute" sixx.type="True" sixx.env="Core" />
+															</sixx.object>
+															<sixx.object sixx.name="isTon" sixx.type="False" sixx.env="Core" />
+														</sixx.object>
+														<sixx.object sixx.name="connection" sixx.idref="35" />
+														<sixx.object sixx.name="type" sixx.idref="46" />
+														<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+														<sixx.object sixx.id="65" sixx.name="name" sixx.type="String" sixx.env="Core" >Q</sixx.object>
+														<sixx.object sixx.id="66" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+														<sixx.object sixx.id="67" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >220@30</sixx.object>
+														<sixx.object sixx.name="stopPoint" sixx.idref="58" />
+														<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+													</sixx.object>
+													<sixx.object sixx.idref="34" />
+												</sixx.object>
+												<sixx.object sixx.id="68" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >240@30 corner: 240@30</sixx.object>
+												<sixx.object sixx.name="type" sixx.idref="46" />
+											</sixx.object>
+											<sixx.object sixx.name="type" sixx.idref="46" />
+											<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+											<sixx.object sixx.id="69" sixx.name="name" sixx.type="String" sixx.env="Core" >send</sixx.object>
+											<sixx.object sixx.id="70" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@30</sixx.object>
+											<sixx.object sixx.id="71" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@30</sixx.object>
+											<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+										</sixx.object>
+										<sixx.object sixx.id="72" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@20 corner: 290@40</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="73" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.id="74" sixx.name="key" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+											<sixx.object sixx.name="block" sixx.idref="27" />
+											<sixx.object sixx.id="75" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+												<sixx.object sixx.id="76" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+													<sixx.object sixx.idref="74" />
+													<sixx.object sixx.id="77" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+														<sixx.object sixx.id="78" sixx.name="block" sixx.type="IrRessiveBlock" sixx.env="Arduino" >
+															<sixx.object sixx.id="79" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >20@40</sixx.object>
+															<sixx.object sixx.id="80" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >40@40 corner: 120@80</sixx.object>
+															<sixx.object sixx.id="81" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >20@40 corner: 140@80</sixx.object>
+															<sixx.object sixx.id="82" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >56.5d@54.5d</sixx.object>
+															<sixx.object sixx.id="83" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="84" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="77" />
+																	<sixx.object sixx.id="85" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >120@60 corner: 140@80</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.id="86" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="87" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="77" />
+																	<sixx.object sixx.id="88" sixx.name="value" sixx.type="Point" sixx.env="Core" >140@70</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+															<sixx.object sixx.id="89" sixx.name="sensor" sixx.type="IRRessiver" sixx.env="Arduino" >
+																<sixx.object sixx.name="number" sixx.idref="18" />
+																<sixx.object sixx.name="comment" sixx.idref="25" />
+																<sixx.object sixx.id="90" sixx.name="pin" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+																	<sixx.object sixx.id="91" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+																		<sixx.object sixx.id="92" sixx.name="number" sixx.type="SmallInteger" sixx.env="Core" >7</sixx.object>
+																		<sixx.object sixx.id="93" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@418</sixx.object>
+																		<sixx.object sixx.name="alternaniveName" sixx.idref="25" />
+																		<sixx.object sixx.name="alias" sixx.idref="25" />
+																		<sixx.object sixx.id="94" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >197900210</sixx.object>
+																		<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+																		<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+																	</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.name="currentValueOutput" sixx.idref="77" />
+															<sixx.object sixx.id="95" sixx.name="buttonOutputs" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+															<sixx.object sixx.name="resetOutput" sixx.type="True" sixx.env="Core" />
+														</sixx.object>
+														<sixx.object sixx.name="connection" sixx.idref="75" />
+														<sixx.object sixx.id="96" sixx.name="type" sixx.type="LongDataType" sixx.env="Arduino" >
+														</sixx.object>
+														<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+														<sixx.object sixx.id="97" sixx.name="name" sixx.type="String" sixx.env="Core" >V</sixx.object>
+														<sixx.object sixx.id="98" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >10.0d</sixx.object>
+														<sixx.object sixx.id="99" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >120@70</sixx.object>
+														<sixx.object sixx.name="stopPoint" sixx.idref="88" />
+														<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+													</sixx.object>
+												</sixx.object>
+												<sixx.object sixx.id="100" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >140@50 corner: 140@70</sixx.object>
+												<sixx.object sixx.name="type" sixx.idref="96" />
+												<sixx.object sixx.name="isTextMode" sixx.type="False" sixx.env="Core" />
+											</sixx.object>
+											<sixx.object sixx.id="101" sixx.name="type" sixx.type="VariableDataType" sixx.env="Arduino" >
+											</sixx.object>
+											<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+											<sixx.object sixx.id="102" sixx.name="name" sixx.type="String" sixx.env="Core" >D</sixx.object>
+											<sixx.object sixx.id="103" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@50</sixx.object>
+											<sixx.object sixx.id="104" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@50</sixx.object>
+											<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+										</sixx.object>
+										<sixx.object sixx.id="105" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@40 corner: 290@60</sixx.object>
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.id="106" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+									<sixx.object sixx.id="107" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="34" />
+										<sixx.object sixx.name="value" sixx.idref="70" />
+									</sixx.object>
+									<sixx.object sixx.id="108" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="74" />
+										<sixx.object sixx.name="value" sixx.idref="103" />
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="bitNumber" sixx.idref="59" />
+								<sixx.object sixx.id="109" sixx.name="device" sixx.type="CommPort" sixx.env="Arduino" >
+									<sixx.object sixx.id="110" sixx.name="portNumber" sixx.type="SmallInteger" sixx.env="Core" >0</sixx.object>
+									<sixx.object sixx.id="111" sixx.name="baudRate" sixx.type="SmallInteger" sixx.env="Core" >9600</sixx.object>
+									<sixx.object sixx.id="112" sixx.name="rxPin" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+										<sixx.object sixx.id="113" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+											<sixx.object sixx.name="number" sixx.idref="110" />
+											<sixx.object sixx.id="114" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@558</sixx.object>
+											<sixx.object sixx.name="alternaniveName" sixx.idref="25" />
+											<sixx.object sixx.name="alias" sixx.idref="25" />
+											<sixx.object sixx.id="115" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >70975375</sixx.object>
+											<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+											<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="False" sixx.env="Core" />
+										</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="116" sixx.name="txPin" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+										<sixx.object sixx.id="117" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+											<sixx.object sixx.name="number" sixx.idref="18" />
+											<sixx.object sixx.id="118" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@538</sixx.object>
+											<sixx.object sixx.name="alternaniveName" sixx.idref="25" />
+											<sixx.object sixx.name="alias" sixx.idref="25" />
+											<sixx.object sixx.id="119" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >36119198</sixx.object>
+											<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+											<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="False" sixx.env="Core" />
+										</sixx.object>
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="sendInput" sixx.idref="34" />
+								<sixx.object sixx.name="isConstantValue" sixx.type="False" sixx.env="Core" />
+								<sixx.object sixx.name="constant" sixx.idref="25" />
+								<sixx.object sixx.name="withLf" sixx.type="True" sixx.env="Core" />
+								<sixx.object sixx.name="dataInput" sixx.idref="74" />
+								<sixx.object sixx.id="120" sixx.name="sendType" sixx.type="Symbol" sixx.env="Core" >change</sixx.object>
+								<sixx.object sixx.id="121" sixx.name="multiplier" sixx.type="SmallInteger" sixx.env="Core" >1000</sixx.object>
+								<sixx.object sixx.name="sendPeriod" sixx.idref="18" />
+							</sixx.object>
+							<sixx.object sixx.idref="78" />
+							<sixx.object sixx.idref="38" />
+							<sixx.object sixx.id="122" sixx.type="IrRessiveBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="123" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >170@210</sixx.object>
+								<sixx.object sixx.id="124" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >190@210 corner: 270@330</sixx.object>
+								<sixx.object sixx.id="125" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >170@210 corner: 290@330</sixx.object>
+								<sixx.object sixx.id="126" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >206.5d@224.5d</sixx.object>
+								<sixx.object sixx.id="127" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+									<sixx.object sixx.id="128" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.id="129" sixx.name="key" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+											<sixx.object sixx.name="block" sixx.idref="122" />
+											<sixx.object sixx.id="130" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+												<sixx.object sixx.id="131" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+													<sixx.object sixx.idref="129" />
+													<sixx.object sixx.id="132" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+														<sixx.object sixx.id="133" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+															<sixx.object sixx.id="134" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >840@220</sixx.object>
+															<sixx.object sixx.id="135" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >860@220 corner: 900@320</sixx.object>
+															<sixx.object sixx.id="136" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >840@220 corner: 920@320</sixx.object>
+															<sixx.object sixx.id="137" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >871.5d@233.5d</sixx.object>
+															<sixx.object sixx.id="138" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="139" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="132" />
+																	<sixx.object sixx.id="140" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@240 corner: 860@260</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="141" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.id="142" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																		<sixx.object sixx.name="block" sixx.idref="133" />
+																		<sixx.object sixx.id="143" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																			<sixx.object sixx.id="144" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																				<sixx.object sixx.id="145" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+																					<sixx.object sixx.name="block" sixx.idref="122" />
+																					<sixx.object sixx.name="connection" sixx.idref="143" />
+																					<sixx.object sixx.name="type" sixx.idref="46" />
+																					<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																					<sixx.object sixx.id="146" sixx.name="name" sixx.type="String" sixx.env="Core" >ok</sixx.object>
+																					<sixx.object sixx.id="147" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >12.0d</sixx.object>
+																					<sixx.object sixx.id="148" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@320</sixx.object>
+																					<sixx.object sixx.id="149" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@320</sixx.object>
+																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																				</sixx.object>
+																				<sixx.object sixx.idref="142" />
+																				<sixx.object sixx.id="150" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																					<sixx.object sixx.id="151" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+																						<sixx.object sixx.id="152" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >840@520</sixx.object>
+																						<sixx.object sixx.id="153" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >860@520 corner: 900@620</sixx.object>
+																						<sixx.object sixx.id="154" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >840@520 corner: 920@620</sixx.object>
+																						<sixx.object sixx.id="155" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >871.5d@533.5d</sixx.object>
+																						<sixx.object sixx.id="156" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																							<sixx.object sixx.id="157" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.id="158" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																									<sixx.object sixx.name="block" sixx.idref="151" />
+																									<sixx.object sixx.name="connection" sixx.idref="130" />
+																									<sixx.object sixx.name="type" sixx.idref="46" />
+																									<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																									<sixx.object sixx.id="159" sixx.name="name" sixx.type="String" sixx.env="Core" ></sixx.object>
+																									<sixx.object sixx.id="160" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@550</sixx.object>
+																									<sixx.object sixx.id="161" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@550</sixx.object>
+																									<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																								</sixx.object>
+																								<sixx.object sixx.id="162" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@540 corner: 860@560</sixx.object>
+																							</sixx.object>
+																							<sixx.object sixx.id="163" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="150" />
+																								<sixx.object sixx.id="164" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@560 corner: 860@580</sixx.object>
+																							</sixx.object>
+																							<sixx.object sixx.id="165" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.id="166" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																									<sixx.object sixx.name="block" sixx.idref="151" />
+																									<sixx.object sixx.id="167" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																										<sixx.object sixx.id="168" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																											<sixx.object sixx.id="169" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																												<sixx.object sixx.id="170" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+																													<sixx.object sixx.id="171" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >840@50</sixx.object>
+																													<sixx.object sixx.id="172" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >860@50 corner: 900@110</sixx.object>
+																													<sixx.object sixx.id="173" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >840@50 corner: 920@110</sixx.object>
+																													<sixx.object sixx.id="174" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >871.5d@63.5d</sixx.object>
+																													<sixx.object sixx.id="175" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																														<sixx.object sixx.id="176" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.id="177" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																<sixx.object sixx.name="block" sixx.idref="170" />
+																																<sixx.object sixx.name="connection" sixx.idref="130" />
+																																<sixx.object sixx.name="type" sixx.idref="46" />
+																																<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																<sixx.object sixx.name="name" sixx.idref="159" />
+																																<sixx.object sixx.id="178" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@80</sixx.object>
+																																<sixx.object sixx.id="179" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@80</sixx.object>
+																																<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																															</sixx.object>
+																															<sixx.object sixx.id="180" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@70 corner: 860@90</sixx.object>
+																														</sixx.object>
+																														<sixx.object sixx.id="181" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.name="key" sixx.idref="169" />
+																															<sixx.object sixx.id="182" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@90 corner: 860@110</sixx.object>
+																														</sixx.object>
+																														<sixx.object sixx.id="183" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.id="184" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																<sixx.object sixx.name="block" sixx.idref="170" />
+																																<sixx.object sixx.id="185" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																	<sixx.object sixx.id="186" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																		<sixx.object sixx.idref="184" />
+																																		<sixx.object sixx.id="187" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																			<sixx.object sixx.id="188" sixx.name="block" sixx.type="FBDTriggerBlock" sixx.env="Arduino" >
+																																				<sixx.object sixx.id="189" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >990@120</sixx.object>
+																																				<sixx.object sixx.id="190" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1010@120 corner: 1050@180</sixx.object>
+																																				<sixx.object sixx.id="191" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >990@120 corner: 1070@180</sixx.object>
+																																				<sixx.object sixx.id="192" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1022.0d@133.5d</sixx.object>
+																																				<sixx.object sixx.id="193" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																					<sixx.object sixx.id="194" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.name="key" sixx.idref="187" />
+																																						<sixx.object sixx.id="195" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@140 corner: 1010@160</sixx.object>
+																																					</sixx.object>
+																																					<sixx.object sixx.id="196" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.id="197" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																							<sixx.object sixx.name="block" sixx.idref="188" />
+																																							<sixx.object sixx.id="198" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																								<sixx.object sixx.id="199" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																									<sixx.object sixx.id="200" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																										<sixx.object sixx.id="201" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+																																											<sixx.object sixx.id="202" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >840@120</sixx.object>
+																																											<sixx.object sixx.id="203" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >860@120 corner: 900@200</sixx.object>
+																																											<sixx.object sixx.id="204" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >840@120 corner: 920@200</sixx.object>
+																																											<sixx.object sixx.id="205" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >871.5d@133.5d</sixx.object>
+																																											<sixx.object sixx.id="206" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.id="207" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.id="208" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																														<sixx.object sixx.name="block" sixx.idref="201" />
+																																														<sixx.object sixx.id="209" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																															<sixx.object sixx.id="210" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																<sixx.object sixx.id="211" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+																																																	<sixx.object sixx.name="block" sixx.idref="122" />
+																																																	<sixx.object sixx.name="connection" sixx.idref="209" />
+																																																	<sixx.object sixx.name="type" sixx.idref="46" />
+																																																	<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																	<sixx.object sixx.id="212" sixx.name="name" sixx.type="String" sixx.env="Core" >down</sixx.object>
+																																																	<sixx.object sixx.id="213" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >26.0d</sixx.object>
+																																																	<sixx.object sixx.id="214" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@300</sixx.object>
+																																																	<sixx.object sixx.id="215" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@300</sixx.object>
+																																																	<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																</sixx.object>
+																																																<sixx.object sixx.id="216" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																	<sixx.object sixx.id="217" sixx.name="block" sixx.type="FBDTriggerBlock" sixx.env="Arduino" >
+																																																		<sixx.object sixx.id="218" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >990@220</sixx.object>
+																																																		<sixx.object sixx.id="219" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1010@220 corner: 1050@280</sixx.object>
+																																																		<sixx.object sixx.id="220" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >990@220 corner: 1070@280</sixx.object>
+																																																		<sixx.object sixx.id="221" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1022.0d@233.5d</sixx.object>
+																																																		<sixx.object sixx.id="222" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="223" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="216" />
+																																																				<sixx.object sixx.id="224" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@240 corner: 1010@260</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="225" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="226" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="217" />
+																																																					<sixx.object sixx.id="227" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																						<sixx.object sixx.id="228" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																							<sixx.object sixx.id="229" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																								<sixx.object sixx.name="block" sixx.idref="133" />
+																																																								<sixx.object sixx.name="connection" sixx.idref="227" />
+																																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																																								<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																								<sixx.object sixx.id="230" sixx.name="name" sixx.type="String" sixx.env="Core" >Q</sixx.object>
+																																																								<sixx.object sixx.id="231" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																								<sixx.object sixx.id="232" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >900@310</sixx.object>
+																																																								<sixx.object sixx.id="233" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >920@310</sixx.object>
+																																																								<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																							</sixx.object>
+																																																							<sixx.object sixx.idref="226" />
+																																																						</sixx.object>
+																																																						<sixx.object sixx.id="234" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >920@270 corner: 920@310</sixx.object>
+																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					</sixx.object>
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																					<sixx.object sixx.id="235" sixx.name="name" sixx.type="String" sixx.env="Core" >R</sixx.object>
+																																																					<sixx.object sixx.id="236" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >990@270</sixx.object>
+																																																					<sixx.object sixx.id="237" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@270</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="238" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@260 corner: 1010@280</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="239" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="240" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="217" />
+																																																					<sixx.object sixx.id="241" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																						<sixx.object sixx.id="242" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																							<sixx.object sixx.idref="240" />
+																																																							<sixx.object sixx.id="243" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																								<sixx.object sixx.id="244" sixx.name="block" sixx.type="TagBlock" sixx.env="Arduino" >
+																																																									<sixx.object sixx.id="245" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >1170@260</sixx.object>
+																																																									<sixx.object sixx.id="246" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1190@260 corner: 1212.0d@280</sixx.object>
+																																																									<sixx.object sixx.id="247" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1170@260 corner: 1232.0d@280</sixx.object>
+																																																									<sixx.object sixx.id="248" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1194@273.5d</sixx.object>
+																																																									<sixx.object sixx.id="249" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="250" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="243" />
+																																																											<sixx.object sixx.id="251" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1170@260 corner: 1190@280</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="252" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="253" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="243" />
+																																																											<sixx.object sixx.id="254" sixx.name="value" sixx.type="Point" sixx.env="Core" >1170@270</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																																									<sixx.object sixx.id="255" sixx.name="tag" sixx.type="FBDOutputTag" sixx.env="Arduino" >
+																																																										<sixx.object sixx.id="256" sixx.name="comment" sixx.type="String" sixx.env="Core" >V1b</sixx.object>
+																																																										<sixx.object sixx.name="isGlobal" sixx.type="True" sixx.env="Core" />
+																																																										<sixx.object sixx.id="257" sixx.name="name" sixx.type="String" sixx.env="Core" >D3</sixx.object>
+																																																										<sixx.object sixx.id="258" sixx.name="type" sixx.type="InputOutputDigitalType" sixx.env="Arduino" >
+																																																										</sixx.object>
+																																																										<sixx.object sixx.name="bitNumber" sixx.idref="59" />
+																																																										<sixx.object sixx.id="259" sixx.name="pinNumber" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+																																																											<sixx.object sixx.id="260" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+																																																												<sixx.object sixx.id="261" sixx.name="number" sixx.type="SmallInteger" sixx.env="Core" >3</sixx.object>
+																																																												<sixx.object sixx.id="262" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@498</sixx.object>
+																																																												<sixx.object sixx.id="263" sixx.name="alternaniveName" sixx.type="String" sixx.env="Core" ></sixx.object>
+																																																												<sixx.object sixx.id="264" sixx.name="alias" sixx.type="String" sixx.env="Core" ></sixx.object>
+																																																												<sixx.object sixx.id="265" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >105253861</sixx.object>
+																																																												<sixx.object sixx.name="isShim" sixx.type="True" sixx.env="Core" />
+																																																												<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+																																																											</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="266" sixx.name="textWidth" sixx.type="Double" sixx.env="Core" >14.0d</sixx.object>
+																																																									<sixx.object sixx.id="267" sixx.name="textHeight" sixx.type="Double" sixx.env="Core" >7.0d</sixx.object>
+																																																									<sixx.object sixx.name="input" sixx.idref="243" />
+																																																								</sixx.object>
+																																																								<sixx.object sixx.name="connection" sixx.idref="241" />
+																																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																																								<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																								<sixx.object sixx.name="name" sixx.idref="159" />
+																																																								<sixx.object sixx.name="startPoint" sixx.idref="254" />
+																																																								<sixx.object sixx.id="268" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1190@270</sixx.object>
+																																																								<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																							</sixx.object>
+																																																						</sixx.object>
+																																																						<sixx.object sixx.id="269" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1070@270 corner: 1070@270</sixx.object>
+																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					</sixx.object>
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="230" />
+																																																					<sixx.object sixx.id="270" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																					<sixx.object sixx.id="271" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >1050@270</sixx.object>
+																																																					<sixx.object sixx.id="272" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1070@270</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="273" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1050@260 corner: 1070@280</sixx.object>
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="274" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="275" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="216" />
+																																																				<sixx.object sixx.id="276" sixx.name="value" sixx.type="Point" sixx.env="Core" >990@250</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="277" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="226" />
+																																																				<sixx.object sixx.name="value" sixx.idref="236" />
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="278" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="240" />
+																																																				<sixx.object sixx.name="value" sixx.idref="272" />
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.name="bitNumber" sixx.idref="59" />
+																																																		<sixx.object sixx.id="279" sixx.name="type" sixx.type="SRTrigerBlockType" sixx.env="Arduino" >
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="280" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="240" />
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="281" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="216" />
+																																																			<sixx.object sixx.idref="226" />
+																																																		</sixx.object>
+																																																	</sixx.object>
+																																																	<sixx.object sixx.name="connection" sixx.idref="209" />
+																																																	<sixx.object sixx.name="type" sixx.idref="46" />
+																																																	<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																	<sixx.object sixx.id="282" sixx.name="name" sixx.type="String" sixx.env="Core" >S</sixx.object>
+																																																	<sixx.object sixx.name="startPoint" sixx.idref="276" />
+																																																	<sixx.object sixx.id="283" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@250</sixx.object>
+																																																	<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																</sixx.object>
+																																																<sixx.object sixx.id="284" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																	<sixx.object sixx.id="285" sixx.name="block" sixx.type="FBDTriggerBlock" sixx.env="Arduino" >
+																																																		<sixx.object sixx.id="286" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >990@420</sixx.object>
+																																																		<sixx.object sixx.id="287" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1010@420 corner: 1050@480</sixx.object>
+																																																		<sixx.object sixx.id="288" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >990@420 corner: 1070@480</sixx.object>
+																																																		<sixx.object sixx.id="289" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1022.0d@433.5d</sixx.object>
+																																																		<sixx.object sixx.id="290" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="291" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="284" />
+																																																				<sixx.object sixx.id="292" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@440 corner: 1010@460</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="293" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="294" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="285" />
+																																																					<sixx.object sixx.id="295" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																						<sixx.object sixx.id="296" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																							<sixx.object sixx.idref="294" />
+																																																							<sixx.object sixx.id="297" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																								<sixx.object sixx.name="block" sixx.idref="151" />
+																																																								<sixx.object sixx.name="connection" sixx.idref="295" />
+																																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																																								<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																								<sixx.object sixx.name="name" sixx.idref="230" />
+																																																								<sixx.object sixx.id="298" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																								<sixx.object sixx.id="299" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >900@610</sixx.object>
+																																																								<sixx.object sixx.id="300" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >920@610</sixx.object>
+																																																								<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																							</sixx.object>
+																																																						</sixx.object>
+																																																						<sixx.object sixx.id="301" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >920@470 corner: 920@610</sixx.object>
+																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					</sixx.object>
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="235" />
+																																																					<sixx.object sixx.id="302" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >990@470</sixx.object>
+																																																					<sixx.object sixx.id="303" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@470</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="304" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@460 corner: 1010@480</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="305" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="306" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="285" />
+																																																					<sixx.object sixx.id="307" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																						<sixx.object sixx.id="308" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																							<sixx.object sixx.id="309" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																								<sixx.object sixx.id="310" sixx.name="block" sixx.type="TagBlock" sixx.env="Arduino" >
+																																																									<sixx.object sixx.id="311" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >1170@460</sixx.object>
+																																																									<sixx.object sixx.id="312" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1190@460 corner: 1212.0d@480</sixx.object>
+																																																									<sixx.object sixx.id="313" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1170@460 corner: 1232.0d@480</sixx.object>
+																																																									<sixx.object sixx.id="314" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1194@473.5d</sixx.object>
+																																																									<sixx.object sixx.id="315" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="316" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="309" />
+																																																											<sixx.object sixx.id="317" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1170@460 corner: 1190@480</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="318" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="319" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="309" />
+																																																											<sixx.object sixx.id="320" sixx.name="value" sixx.type="Point" sixx.env="Core" >1170@470</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																																									<sixx.object sixx.id="321" sixx.name="tag" sixx.type="FBDOutputTag" sixx.env="Arduino" >
+																																																										<sixx.object sixx.id="322" sixx.name="comment" sixx.type="String" sixx.env="Core" >V2b</sixx.object>
+																																																										<sixx.object sixx.name="isGlobal" sixx.type="True" sixx.env="Core" />
+																																																										<sixx.object sixx.id="323" sixx.name="name" sixx.type="String" sixx.env="Core" >D5</sixx.object>
+																																																										<sixx.object sixx.name="type" sixx.idref="258" />
+																																																										<sixx.object sixx.name="bitNumber" sixx.idref="20" />
+																																																										<sixx.object sixx.id="324" sixx.name="pinNumber" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+																																																											<sixx.object sixx.id="325" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+																																																												<sixx.object sixx.id="326" sixx.name="number" sixx.type="SmallInteger" sixx.env="Core" >5</sixx.object>
+																																																												<sixx.object sixx.id="327" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@458</sixx.object>
+																																																												<sixx.object sixx.name="alternaniveName" sixx.idref="263" />
+																																																												<sixx.object sixx.name="alias" sixx.idref="264" />
+																																																												<sixx.object sixx.id="328" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >113216864</sixx.object>
+																																																												<sixx.object sixx.name="isShim" sixx.type="True" sixx.env="Core" />
+																																																												<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+																																																											</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="329" sixx.name="textWidth" sixx.type="Double" sixx.env="Core" >14.0d</sixx.object>
+																																																									<sixx.object sixx.id="330" sixx.name="textHeight" sixx.type="Double" sixx.env="Core" >7.0d</sixx.object>
+																																																									<sixx.object sixx.name="input" sixx.idref="309" />
+																																																								</sixx.object>
+																																																								<sixx.object sixx.name="connection" sixx.idref="307" />
+																																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																																								<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																								<sixx.object sixx.name="name" sixx.idref="159" />
+																																																								<sixx.object sixx.name="startPoint" sixx.idref="320" />
+																																																								<sixx.object sixx.id="331" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1190@470</sixx.object>
+																																																								<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																							</sixx.object>
+																																																							<sixx.object sixx.idref="306" />
+																																																						</sixx.object>
+																																																						<sixx.object sixx.id="332" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1070@470 corner: 1070@470</sixx.object>
+																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					</sixx.object>
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="230" />
+																																																					<sixx.object sixx.id="333" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																					<sixx.object sixx.id="334" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >1050@470</sixx.object>
+																																																					<sixx.object sixx.id="335" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1070@470</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="336" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1050@460 corner: 1070@480</sixx.object>
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="337" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="338" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="284" />
+																																																				<sixx.object sixx.id="339" sixx.name="value" sixx.type="Point" sixx.env="Core" >990@450</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="340" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="294" />
+																																																				<sixx.object sixx.name="value" sixx.idref="302" />
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="341" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="306" />
+																																																				<sixx.object sixx.name="value" sixx.idref="335" />
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.name="bitNumber" sixx.idref="20" />
+																																																		<sixx.object sixx.id="342" sixx.name="type" sixx.type="SRTrigerBlockType" sixx.env="Arduino" >
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="343" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="306" />
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="344" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="284" />
+																																																			<sixx.object sixx.idref="294" />
+																																																		</sixx.object>
+																																																	</sixx.object>
+																																																	<sixx.object sixx.name="connection" sixx.idref="209" />
+																																																	<sixx.object sixx.name="type" sixx.idref="46" />
+																																																	<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																	<sixx.object sixx.name="name" sixx.idref="282" />
+																																																	<sixx.object sixx.name="startPoint" sixx.idref="339" />
+																																																	<sixx.object sixx.id="345" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@450</sixx.object>
+																																																	<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																</sixx.object>
+																																																<sixx.object sixx.id="346" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																	<sixx.object sixx.id="347" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+																																																		<sixx.object sixx.id="348" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >810@410</sixx.object>
+																																																		<sixx.object sixx.id="349" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >830@410 corner: 870@490</sixx.object>
+																																																		<sixx.object sixx.id="350" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >810@410 corner: 890@490</sixx.object>
+																																																		<sixx.object sixx.id="351" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >841.5d@423.5d</sixx.object>
+																																																		<sixx.object sixx.id="352" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="353" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="346" />
+																																																				<sixx.object sixx.id="354" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >810@430 corner: 830@450</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="355" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="356" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="347" />
+																																																					<sixx.object sixx.name="connection" sixx.idref="143" />
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="159" />
+																																																					<sixx.object sixx.id="357" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >810@460</sixx.object>
+																																																					<sixx.object sixx.id="358" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >830@460</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="359" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >810@450 corner: 830@470</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="360" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="361" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="347" />
+																																																					<sixx.object sixx.name="connection" sixx.idref="167" />
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="159" />
+																																																					<sixx.object sixx.id="362" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >810@480</sixx.object>
+																																																					<sixx.object sixx.id="363" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >830@480</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="364" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >810@470 corner: 830@490</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="365" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.id="366" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																					<sixx.object sixx.name="block" sixx.idref="347" />
+																																																					<sixx.object sixx.id="367" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																						<sixx.object sixx.id="368" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																							<sixx.object sixx.id="369" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																								<sixx.object sixx.id="370" sixx.name="block" sixx.type="FBDTriggerBlock" sixx.env="Arduino" >
+																																																									<sixx.object sixx.id="371" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >990@320</sixx.object>
+																																																									<sixx.object sixx.id="372" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1010@320 corner: 1050@380</sixx.object>
+																																																									<sixx.object sixx.id="373" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >990@320 corner: 1070@380</sixx.object>
+																																																									<sixx.object sixx.id="374" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1022.0d@333.5d</sixx.object>
+																																																									<sixx.object sixx.id="375" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="376" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.id="377" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																												<sixx.object sixx.name="block" sixx.idref="370" />
+																																																												<sixx.object sixx.id="378" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																													<sixx.object sixx.id="379" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																														<sixx.object sixx.id="380" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																															<sixx.object sixx.id="381" sixx.name="block" sixx.type="FBDBasicLogikBlock" sixx.env="Arduino" >
+																																																																<sixx.object sixx.id="382" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >780@330</sixx.object>
+																																																																<sixx.object sixx.id="383" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >800@330 corner: 840@390</sixx.object>
+																																																																<sixx.object sixx.id="384" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >780@330 corner: 860@390</sixx.object>
+																																																																<sixx.object sixx.id="385" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >811.5d@343.5d</sixx.object>
+																																																																<sixx.object sixx.id="386" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.id="387" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.id="388" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																																			<sixx.object sixx.name="block" sixx.idref="381" />
+																																																																			<sixx.object sixx.id="389" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																																				<sixx.object sixx.id="390" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																					<sixx.object sixx.id="391" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+																																																																						<sixx.object sixx.name="block" sixx.idref="122" />
+																																																																						<sixx.object sixx.name="connection" sixx.idref="389" />
+																																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																						<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																																						<sixx.object sixx.id="392" sixx.name="name" sixx.type="String" sixx.env="Core" >left</sixx.object>
+																																																																						<sixx.object sixx.id="393" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >17.0d</sixx.object>
+																																																																						<sixx.object sixx.id="394" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@280</sixx.object>
+																																																																						<sixx.object sixx.id="395" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@280</sixx.object>
+																																																																						<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																					</sixx.object>
+																																																																					<sixx.object sixx.id="396" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																																						<sixx.object sixx.name="block" sixx.idref="201" />
+																																																																						<sixx.object sixx.name="connection" sixx.idref="389" />
+																																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																						<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																																						<sixx.object sixx.name="name" sixx.idref="159" />
+																																																																						<sixx.object sixx.id="397" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@190</sixx.object>
+																																																																						<sixx.object sixx.id="398" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@190</sixx.object>
+																																																																						<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																					</sixx.object>
+																																																																					<sixx.object sixx.id="399" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																																						<sixx.object sixx.name="block" sixx.idref="133" />
+																																																																						<sixx.object sixx.name="connection" sixx.idref="389" />
+																																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																						<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																																						<sixx.object sixx.name="name" sixx.idref="159" />
+																																																																						<sixx.object sixx.id="400" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@310</sixx.object>
+																																																																						<sixx.object sixx.id="401" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@310</sixx.object>
+																																																																						<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																					</sixx.object>
+																																																																					<sixx.object sixx.idref="388" />
+																																																																					<sixx.object sixx.id="402" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																																						<sixx.object sixx.name="block" sixx.idref="151" />
+																																																																						<sixx.object sixx.name="connection" sixx.idref="389" />
+																																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																						<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																																						<sixx.object sixx.name="name" sixx.idref="159" />
+																																																																						<sixx.object sixx.id="403" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@610</sixx.object>
+																																																																						<sixx.object sixx.id="404" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@610</sixx.object>
+																																																																						<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																					</sixx.object>
+																																																																				</sixx.object>
+																																																																				<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																				<sixx.object sixx.name="isTextMode" sixx.type="True" sixx.env="Core" />
+																																																																				<sixx.object sixx.id="405" sixx.name="textRegtangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																					<sixx.object sixx.id="406" sixx.type="Rectangle" sixx.env="Graphics" >292@276.5d corner: 309.0d@283.5d</sixx.object>
+																																																																					<sixx.object sixx.id="407" sixx.type="Rectangle" sixx.env="Graphics" >821.0d@186.5d corner: 838.0d@193.5d</sixx.object>
+																																																																					<sixx.object sixx.id="408" sixx.type="Rectangle" sixx.env="Graphics" >821.0d@306.5d corner: 838.0d@313.5d</sixx.object>
+																																																																					<sixx.object sixx.id="409" sixx.type="Rectangle" sixx.env="Graphics" >761.0d@356.5d corner: 778.0d@363.5d</sixx.object>
+																																																																					<sixx.object sixx.id="410" sixx.type="Rectangle" sixx.env="Graphics" >821.0d@606.5d corner: 838.0d@613.5d</sixx.object>
+																																																																				</sixx.object>
+																																																																				<sixx.object sixx.id="411" sixx.name="textModeName" sixx.type="String" sixx.env="Core" >left</sixx.object>
+																																																																			</sixx.object>
+																																																																			<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																			<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																																			<sixx.object sixx.name="name" sixx.idref="159" />
+																																																																			<sixx.object sixx.id="412" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >780@360</sixx.object>
+																																																																			<sixx.object sixx.id="413" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >800@360</sixx.object>
+																																																																			<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																		</sixx.object>
+																																																																		<sixx.object sixx.id="414" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >780@350 corner: 800@370</sixx.object>
+																																																																	</sixx.object>
+																																																																	<sixx.object sixx.id="415" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.id="416" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																																			<sixx.object sixx.name="block" sixx.idref="381" />
+																																																																			<sixx.object sixx.name="connection" sixx.idref="130" />
+																																																																			<sixx.object sixx.name="type" sixx.idref="46" />
+																																																																			<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																																			<sixx.object sixx.name="name" sixx.idref="159" />
+																																																																			<sixx.object sixx.id="417" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >780@380</sixx.object>
+																																																																			<sixx.object sixx.id="418" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >800@380</sixx.object>
+																																																																			<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																																		</sixx.object>
+																																																																		<sixx.object sixx.id="419" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >780@370 corner: 800@390</sixx.object>
+																																																																	</sixx.object>
+																																																																	<sixx.object sixx.id="420" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="380" />
+																																																																		<sixx.object sixx.id="421" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@370 corner: 860@390</sixx.object>
+																																																																	</sixx.object>
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="422" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.id="423" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="388" />
+																																																																		<sixx.object sixx.name="value" sixx.idref="412" />
+																																																																	</sixx.object>
+																																																																	<sixx.object sixx.id="424" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="416" />
+																																																																		<sixx.object sixx.name="value" sixx.idref="417" />
+																																																																	</sixx.object>
+																																																																	<sixx.object sixx.id="425" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="380" />
+																																																																		<sixx.object sixx.id="426" sixx.name="value" sixx.type="Point" sixx.env="Core" >860@380</sixx.object>
+																																																																	</sixx.object>
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="427" sixx.name="bitNumber" sixx.type="SmallInteger" sixx.env="Core" >6</sixx.object>
+																																																																<sixx.object sixx.id="428" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="429" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.idref="380" />
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="430" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.idref="388" />
+																																																																	<sixx.object sixx.idref="416" />
+																																																																</sixx.object>
+																																																															</sixx.object>
+																																																															<sixx.object sixx.name="connection" sixx.idref="378" />
+																																																															<sixx.object sixx.name="type" sixx.idref="46" />
+																																																															<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																															<sixx.object sixx.name="name" sixx.idref="230" />
+																																																															<sixx.object sixx.id="431" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																															<sixx.object sixx.id="432" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@380</sixx.object>
+																																																															<sixx.object sixx.name="stopPoint" sixx.idref="426" />
+																																																															<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																														</sixx.object>
+																																																														<sixx.object sixx.idref="377" />
+																																																													</sixx.object>
+																																																													<sixx.object sixx.id="433" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >860@350 corner: 860@380</sixx.object>
+																																																													<sixx.object sixx.name="type" sixx.idref="46" />
+																																																												</sixx.object>
+																																																												<sixx.object sixx.name="type" sixx.idref="46" />
+																																																												<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																												<sixx.object sixx.name="name" sixx.idref="282" />
+																																																												<sixx.object sixx.id="434" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >990@350</sixx.object>
+																																																												<sixx.object sixx.id="435" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@350</sixx.object>
+																																																												<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																											</sixx.object>
+																																																											<sixx.object sixx.id="436" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@340 corner: 1010@360</sixx.object>
+																																																										</sixx.object>
+																																																										<sixx.object sixx.id="437" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="369" />
+																																																											<sixx.object sixx.id="438" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@360 corner: 1010@380</sixx.object>
+																																																										</sixx.object>
+																																																										<sixx.object sixx.id="439" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.id="440" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																												<sixx.object sixx.name="block" sixx.idref="370" />
+																																																												<sixx.object sixx.id="441" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																																													<sixx.object sixx.id="442" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																														<sixx.object sixx.idref="440" />
+																																																														<sixx.object sixx.id="443" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																																															<sixx.object sixx.id="444" sixx.name="block" sixx.type="TagBlock" sixx.env="Arduino" >
+																																																																<sixx.object sixx.id="445" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >1170@360</sixx.object>
+																																																																<sixx.object sixx.id="446" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1190@360 corner: 1213.0d@380</sixx.object>
+																																																																<sixx.object sixx.id="447" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1170@360 corner: 1233.0d@380</sixx.object>
+																																																																<sixx.object sixx.id="448" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1194@373.5d</sixx.object>
+																																																																<sixx.object sixx.id="449" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.id="450" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="443" />
+																																																																		<sixx.object sixx.id="451" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1170@360 corner: 1190@380</sixx.object>
+																																																																	</sixx.object>
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="452" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																																	<sixx.object sixx.id="453" sixx.type="Association" sixx.env="Core" >
+																																																																		<sixx.object sixx.name="key" sixx.idref="443" />
+																																																																		<sixx.object sixx.id="454" sixx.name="value" sixx.type="Point" sixx.env="Core" >1170@370</sixx.object>
+																																																																	</sixx.object>
+																																																																</sixx.object>
+																																																																<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																																																<sixx.object sixx.id="455" sixx.name="tag" sixx.type="FBDOutputTag" sixx.env="Arduino" >
+																																																																	<sixx.object sixx.id="456" sixx.name="comment" sixx.type="String" sixx.env="Core" >V2a</sixx.object>
+																																																																	<sixx.object sixx.name="isGlobal" sixx.type="True" sixx.env="Core" />
+																																																																	<sixx.object sixx.id="457" sixx.name="name" sixx.type="String" sixx.env="Core" >D4</sixx.object>
+																																																																	<sixx.object sixx.name="type" sixx.idref="258" />
+																																																																	<sixx.object sixx.name="bitNumber" sixx.idref="261" />
+																																																																	<sixx.object sixx.id="458" sixx.name="pinNumber" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+																																																																		<sixx.object sixx.id="459" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+																																																																			<sixx.object sixx.name="number" sixx.idref="20" />
+																																																																			<sixx.object sixx.id="460" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@478</sixx.object>
+																																																																			<sixx.object sixx.name="alternaniveName" sixx.idref="263" />
+																																																																			<sixx.object sixx.name="alias" sixx.idref="264" />
+																																																																			<sixx.object sixx.id="461" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >148423499</sixx.object>
+																																																																			<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+																																																																			<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+																																																																		</sixx.object>
+																																																																	</sixx.object>
+																																																																</sixx.object>
+																																																																<sixx.object sixx.id="462" sixx.name="textWidth" sixx.type="Double" sixx.env="Core" >15.0d</sixx.object>
+																																																																<sixx.object sixx.id="463" sixx.name="textHeight" sixx.type="Double" sixx.env="Core" >7.0d</sixx.object>
+																																																																<sixx.object sixx.name="input" sixx.idref="443" />
+																																																															</sixx.object>
+																																																															<sixx.object sixx.name="connection" sixx.idref="441" />
+																																																															<sixx.object sixx.name="type" sixx.idref="46" />
+																																																															<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																															<sixx.object sixx.name="name" sixx.idref="159" />
+																																																															<sixx.object sixx.name="startPoint" sixx.idref="454" />
+																																																															<sixx.object sixx.id="464" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1190@370</sixx.object>
+																																																															<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																														</sixx.object>
+																																																													</sixx.object>
+																																																													<sixx.object sixx.id="465" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1070@370 corner: 1070@370</sixx.object>
+																																																													<sixx.object sixx.name="type" sixx.idref="46" />
+																																																												</sixx.object>
+																																																												<sixx.object sixx.name="type" sixx.idref="46" />
+																																																												<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																												<sixx.object sixx.name="name" sixx.idref="230" />
+																																																												<sixx.object sixx.id="466" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																												<sixx.object sixx.id="467" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >1050@370</sixx.object>
+																																																												<sixx.object sixx.id="468" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1070@370</sixx.object>
+																																																												<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																											</sixx.object>
+																																																											<sixx.object sixx.id="469" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1050@360 corner: 1070@380</sixx.object>
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="470" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.id="471" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="377" />
+																																																											<sixx.object sixx.name="value" sixx.idref="434" />
+																																																										</sixx.object>
+																																																										<sixx.object sixx.id="472" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="369" />
+																																																											<sixx.object sixx.id="473" sixx.name="value" sixx.type="Point" sixx.env="Core" >990@370</sixx.object>
+																																																										</sixx.object>
+																																																										<sixx.object sixx.id="474" sixx.type="Association" sixx.env="Core" >
+																																																											<sixx.object sixx.name="key" sixx.idref="440" />
+																																																											<sixx.object sixx.name="value" sixx.idref="468" />
+																																																										</sixx.object>
+																																																									</sixx.object>
+																																																									<sixx.object sixx.name="bitNumber" sixx.idref="261" />
+																																																									<sixx.object sixx.id="475" sixx.name="type" sixx.type="SRTrigerBlockType" sixx.env="Arduino" >
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="476" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.idref="440" />
+																																																									</sixx.object>
+																																																									<sixx.object sixx.id="477" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																										<sixx.object sixx.idref="377" />
+																																																										<sixx.object sixx.idref="369" />
+																																																									</sixx.object>
+																																																								</sixx.object>
+																																																								<sixx.object sixx.name="connection" sixx.idref="367" />
+																																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																																								<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																								<sixx.object sixx.name="name" sixx.idref="235" />
+																																																								<sixx.object sixx.name="startPoint" sixx.idref="473" />
+																																																								<sixx.object sixx.id="478" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@370</sixx.object>
+																																																								<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																							</sixx.object>
+																																																							<sixx.object sixx.idref="366" />
+																																																						</sixx.object>
+																																																						<sixx.object sixx.id="479" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >890@370 corner: 890@480</sixx.object>
+																																																						<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					</sixx.object>
+																																																					<sixx.object sixx.name="type" sixx.idref="46" />
+																																																					<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																																					<sixx.object sixx.name="name" sixx.idref="230" />
+																																																					<sixx.object sixx.id="480" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																																					<sixx.object sixx.id="481" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >870@480</sixx.object>
+																																																					<sixx.object sixx.id="482" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >890@480</sixx.object>
+																																																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																				</sixx.object>
+																																																				<sixx.object sixx.id="483" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >870@470 corner: 890@490</sixx.object>
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="484" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.id="485" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="346" />
+																																																				<sixx.object sixx.id="486" sixx.name="value" sixx.type="Point" sixx.env="Core" >810@440</sixx.object>
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="487" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="356" />
+																																																				<sixx.object sixx.name="value" sixx.idref="357" />
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="488" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="361" />
+																																																				<sixx.object sixx.name="value" sixx.idref="362" />
+																																																			</sixx.object>
+																																																			<sixx.object sixx.id="489" sixx.type="Association" sixx.env="Core" >
+																																																				<sixx.object sixx.name="key" sixx.idref="366" />
+																																																				<sixx.object sixx.name="value" sixx.idref="482" />
+																																																			</sixx.object>
+																																																		</sixx.object>
+																																																		<sixx.object sixx.name="bitNumber" sixx.idref="261" />
+																																																		<sixx.object sixx.id="490" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="491" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="366" />
+																																																		</sixx.object>
+																																																		<sixx.object sixx.id="492" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																			<sixx.object sixx.idref="346" />
+																																																			<sixx.object sixx.idref="356" />
+																																																			<sixx.object sixx.idref="361" />
+																																																		</sixx.object>
+																																																	</sixx.object>
+																																																	<sixx.object sixx.name="connection" sixx.idref="209" />
+																																																	<sixx.object sixx.name="type" sixx.idref="46" />
+																																																	<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																																	<sixx.object sixx.name="name" sixx.idref="159" />
+																																																	<sixx.object sixx.name="startPoint" sixx.idref="486" />
+																																																	<sixx.object sixx.id="493" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >830@440</sixx.object>
+																																																	<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																																</sixx.object>
+																																																<sixx.object sixx.idref="208" />
+																																															</sixx.object>
+																																															<sixx.object sixx.id="494" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >290@150 corner: 290@450</sixx.object>
+																																															<sixx.object sixx.name="type" sixx.idref="46" />
+																																															<sixx.object sixx.name="isTextMode" sixx.type="True" sixx.env="Core" />
+																																															<sixx.object sixx.id="495" sixx.name="textRegtangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																																<sixx.object sixx.id="496" sixx.type="Rectangle" sixx.env="Graphics" >292@296.5d corner: 318.0d@303.5d</sixx.object>
+																																																<sixx.object sixx.id="497" sixx.type="Rectangle" sixx.env="Graphics" >962.0d@246.5d corner: 988.0d@253.5d</sixx.object>
+																																																<sixx.object sixx.id="498" sixx.type="Rectangle" sixx.env="Graphics" >962.0d@446.5d corner: 988.0d@453.5d</sixx.object>
+																																																<sixx.object sixx.id="499" sixx.type="Rectangle" sixx.env="Graphics" >782.0d@436.5d corner: 808.0d@443.5d</sixx.object>
+																																																<sixx.object sixx.id="500" sixx.type="Rectangle" sixx.env="Graphics" >812.0d@146.5d corner: 838.0d@153.5d</sixx.object>
+																																															</sixx.object>
+																																															<sixx.object sixx.id="501" sixx.name="textModeName" sixx.type="String" sixx.env="Core" >down</sixx.object>
+																																														</sixx.object>
+																																														<sixx.object sixx.id="502" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																														</sixx.object>
+																																														<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																														<sixx.object sixx.name="name" sixx.idref="159" />
+																																														<sixx.object sixx.id="503" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@150</sixx.object>
+																																														<sixx.object sixx.id="504" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@150</sixx.object>
+																																														<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																													</sixx.object>
+																																													<sixx.object sixx.id="505" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@140 corner: 860@160</sixx.object>
+																																												</sixx.object>
+																																												<sixx.object sixx.id="506" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.id="507" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																														<sixx.object sixx.name="block" sixx.idref="201" />
+																																														<sixx.object sixx.name="connection" sixx.idref="143" />
+																																														<sixx.object sixx.id="508" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																														</sixx.object>
+																																														<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																														<sixx.object sixx.name="name" sixx.idref="159" />
+																																														<sixx.object sixx.id="509" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@170</sixx.object>
+																																														<sixx.object sixx.id="510" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@170</sixx.object>
+																																														<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																													</sixx.object>
+																																													<sixx.object sixx.id="511" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@160 corner: 860@180</sixx.object>
+																																												</sixx.object>
+																																												<sixx.object sixx.id="512" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="396" />
+																																													<sixx.object sixx.id="513" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@180 corner: 860@200</sixx.object>
+																																												</sixx.object>
+																																												<sixx.object sixx.id="514" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="200" />
+																																													<sixx.object sixx.id="515" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >900@180 corner: 920@200</sixx.object>
+																																												</sixx.object>
+																																											</sixx.object>
+																																											<sixx.object sixx.id="516" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.id="517" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="208" />
+																																													<sixx.object sixx.name="value" sixx.idref="503" />
+																																												</sixx.object>
+																																												<sixx.object sixx.id="518" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="507" />
+																																													<sixx.object sixx.name="value" sixx.idref="509" />
+																																												</sixx.object>
+																																												<sixx.object sixx.id="519" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="396" />
+																																													<sixx.object sixx.name="value" sixx.idref="397" />
+																																												</sixx.object>
+																																												<sixx.object sixx.id="520" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="200" />
+																																													<sixx.object sixx.id="521" sixx.name="value" sixx.type="Point" sixx.env="Core" >920@190</sixx.object>
+																																												</sixx.object>
+																																											</sixx.object>
+																																											<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																											<sixx.object sixx.id="522" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+																																											</sixx.object>
+																																											<sixx.object sixx.id="523" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.idref="200" />
+																																											</sixx.object>
+																																											<sixx.object sixx.id="524" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.idref="208" />
+																																												<sixx.object sixx.idref="507" />
+																																												<sixx.object sixx.idref="396" />
+																																											</sixx.object>
+																																										</sixx.object>
+																																										<sixx.object sixx.name="connection" sixx.idref="198" />
+																																										<sixx.object sixx.id="525" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																										</sixx.object>
+																																										<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																										<sixx.object sixx.name="name" sixx.idref="230" />
+																																										<sixx.object sixx.id="526" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																										<sixx.object sixx.id="527" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >900@190</sixx.object>
+																																										<sixx.object sixx.name="stopPoint" sixx.idref="521" />
+																																										<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																									</sixx.object>
+																																									<sixx.object sixx.idref="197" />
+																																								</sixx.object>
+																																								<sixx.object sixx.id="528" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >920@170 corner: 920@190</sixx.object>
+																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																							</sixx.object>
+																																							<sixx.object sixx.id="529" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																							</sixx.object>
+																																							<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																							<sixx.object sixx.name="name" sixx.idref="235" />
+																																							<sixx.object sixx.id="530" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >990@170</sixx.object>
+																																							<sixx.object sixx.id="531" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@170</sixx.object>
+																																							<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																						</sixx.object>
+																																						<sixx.object sixx.id="532" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >990@160 corner: 1010@180</sixx.object>
+																																					</sixx.object>
+																																					<sixx.object sixx.id="533" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.id="534" sixx.name="key" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																							<sixx.object sixx.name="block" sixx.idref="188" />
+																																							<sixx.object sixx.id="535" sixx.name="connection" sixx.type="FBDConnection" sixx.env="Arduino" >
+																																								<sixx.object sixx.id="536" sixx.name="inputsOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																									<sixx.object sixx.idref="534" />
+																																									<sixx.object sixx.id="537" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																																										<sixx.object sixx.id="538" sixx.name="block" sixx.type="TagBlock" sixx.env="Arduino" >
+																																											<sixx.object sixx.id="539" sixx.name="inseptPoint" sixx.type="Point" sixx.env="Core" >1170@160</sixx.object>
+																																											<sixx.object sixx.id="540" sixx.name="bodyRectangle" sixx.type="Rectangle" sixx.env="Graphics" >1190@160 corner: 1212.0d@180</sixx.object>
+																																											<sixx.object sixx.id="541" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1170@160 corner: 1232.0d@180</sixx.object>
+																																											<sixx.object sixx.id="542" sixx.name="labelPaintPoint" sixx.type="Point" sixx.env="Core" >1194@173.5d</sixx.object>
+																																											<sixx.object sixx.id="543" sixx.name="inputsOutputsAndActiveZoneRectangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.id="544" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="537" />
+																																													<sixx.object sixx.id="545" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1170@160 corner: 1190@180</sixx.object>
+																																												</sixx.object>
+																																											</sixx.object>
+																																											<sixx.object sixx.id="546" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																												<sixx.object sixx.id="547" sixx.type="Association" sixx.env="Core" >
+																																													<sixx.object sixx.name="key" sixx.idref="537" />
+																																													<sixx.object sixx.id="548" sixx.name="value" sixx.type="Point" sixx.env="Core" >1170@170</sixx.object>
+																																												</sixx.object>
+																																											</sixx.object>
+																																											<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																											<sixx.object sixx.id="549" sixx.name="tag" sixx.type="FBDOutputTag" sixx.env="Arduino" >
+																																												<sixx.object sixx.id="550" sixx.name="comment" sixx.type="String" sixx.env="Core" >V1a</sixx.object>
+																																												<sixx.object sixx.name="isGlobal" sixx.type="True" sixx.env="Core" />
+																																												<sixx.object sixx.id="551" sixx.name="name" sixx.type="String" sixx.env="Core" >D2</sixx.object>
+																																												<sixx.object sixx.name="type" sixx.idref="258" />
+																																												<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																												<sixx.object sixx.id="552" sixx.name="pinNumber" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+																																													<sixx.object sixx.id="553" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+																																														<sixx.object sixx.name="number" sixx.idref="59" />
+																																														<sixx.object sixx.id="554" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >398@518</sixx.object>
+																																														<sixx.object sixx.name="alternaniveName" sixx.idref="263" />
+																																														<sixx.object sixx.name="alias" sixx.idref="264" />
+																																														<sixx.object sixx.name="canINPUT_PULLUP" sixx.type="True" sixx.env="Core" />
+																																														<sixx.object sixx.id="555" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >75108618</sixx.object>
+																																														<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+																																														<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+																																													</sixx.object>
+																																												</sixx.object>
+																																											</sixx.object>
+																																											<sixx.object sixx.id="556" sixx.name="textWidth" sixx.type="Double" sixx.env="Core" >14.0d</sixx.object>
+																																											<sixx.object sixx.id="557" sixx.name="textHeight" sixx.type="Double" sixx.env="Core" >7.0d</sixx.object>
+																																											<sixx.object sixx.name="input" sixx.idref="537" />
+																																										</sixx.object>
+																																										<sixx.object sixx.name="connection" sixx.idref="535" />
+																																										<sixx.object sixx.name="type" sixx.idref="46" />
+																																										<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																										<sixx.object sixx.name="name" sixx.idref="159" />
+																																										<sixx.object sixx.name="startPoint" sixx.idref="548" />
+																																										<sixx.object sixx.id="558" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1190@170</sixx.object>
+																																										<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																									</sixx.object>
+																																								</sixx.object>
+																																								<sixx.object sixx.id="559" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >1070@170 corner: 1070@170</sixx.object>
+																																								<sixx.object sixx.name="type" sixx.idref="46" />
+																																							</sixx.object>
+																																							<sixx.object sixx.id="560" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																							</sixx.object>
+																																							<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																							<sixx.object sixx.name="name" sixx.idref="230" />
+																																							<sixx.object sixx.id="561" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																							<sixx.object sixx.id="562" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >1050@170</sixx.object>
+																																							<sixx.object sixx.id="563" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1070@170</sixx.object>
+																																							<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																						</sixx.object>
+																																						<sixx.object sixx.id="564" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >1050@160 corner: 1070@180</sixx.object>
+																																					</sixx.object>
+																																				</sixx.object>
+																																				<sixx.object sixx.id="565" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																																					<sixx.object sixx.id="566" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.name="key" sixx.idref="187" />
+																																						<sixx.object sixx.id="567" sixx.name="value" sixx.type="Point" sixx.env="Core" >990@150</sixx.object>
+																																					</sixx.object>
+																																					<sixx.object sixx.id="568" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.name="key" sixx.idref="197" />
+																																						<sixx.object sixx.name="value" sixx.idref="530" />
+																																					</sixx.object>
+																																					<sixx.object sixx.id="569" sixx.type="Association" sixx.env="Core" >
+																																						<sixx.object sixx.name="key" sixx.idref="534" />
+																																						<sixx.object sixx.name="value" sixx.idref="563" />
+																																					</sixx.object>
+																																				</sixx.object>
+																																				<sixx.object sixx.name="bitNumber" sixx.idref="18" />
+																																				<sixx.object sixx.id="570" sixx.name="type" sixx.type="SRTrigerBlockType" sixx.env="Arduino" >
+																																				</sixx.object>
+																																				<sixx.object sixx.id="571" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																					<sixx.object sixx.idref="534" />
+																																				</sixx.object>
+																																				<sixx.object sixx.id="572" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																																					<sixx.object sixx.idref="187" />
+																																					<sixx.object sixx.idref="197" />
+																																				</sixx.object>
+																																			</sixx.object>
+																																			<sixx.object sixx.name="connection" sixx.idref="185" />
+																																			<sixx.object sixx.id="573" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+																																			</sixx.object>
+																																			<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																																			<sixx.object sixx.name="name" sixx.idref="282" />
+																																			<sixx.object sixx.name="startPoint" sixx.idref="567" />
+																																			<sixx.object sixx.id="574" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >1010@150</sixx.object>
+																																			<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																																		</sixx.object>
+																																	</sixx.object>
+																																	<sixx.object sixx.id="575" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >920@100 corner: 920@150</sixx.object>
+																																	<sixx.object sixx.name="type" sixx.idref="46" />
+																																</sixx.object>
+																																<sixx.object sixx.name="type" sixx.idref="46" />
+																																<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																																<sixx.object sixx.name="name" sixx.idref="230" />
+																																<sixx.object sixx.id="576" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >9.0d</sixx.object>
+																																<sixx.object sixx.id="577" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >900@100</sixx.object>
+																																<sixx.object sixx.id="578" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >920@100</sixx.object>
+																																<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																															</sixx.object>
+																															<sixx.object sixx.id="579" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >900@90 corner: 920@110</sixx.object>
+																														</sixx.object>
+																													</sixx.object>
+																													<sixx.object sixx.id="580" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																														<sixx.object sixx.id="581" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.name="key" sixx.idref="177" />
+																															<sixx.object sixx.name="value" sixx.idref="178" />
+																														</sixx.object>
+																														<sixx.object sixx.id="582" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.name="key" sixx.idref="169" />
+																															<sixx.object sixx.id="583" sixx.name="value" sixx.type="Point" sixx.env="Core" >840@100</sixx.object>
+																														</sixx.object>
+																														<sixx.object sixx.id="584" sixx.type="Association" sixx.env="Core" >
+																															<sixx.object sixx.name="key" sixx.idref="184" />
+																															<sixx.object sixx.name="value" sixx.idref="578" />
+																														</sixx.object>
+																													</sixx.object>
+																													<sixx.object sixx.name="bitNumber" sixx.idref="326" />
+																													<sixx.object sixx.id="585" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+																													</sixx.object>
+																													<sixx.object sixx.id="586" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																														<sixx.object sixx.idref="184" />
+																													</sixx.object>
+																													<sixx.object sixx.id="587" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																														<sixx.object sixx.idref="177" />
+																														<sixx.object sixx.idref="169" />
+																													</sixx.object>
+																												</sixx.object>
+																												<sixx.object sixx.name="connection" sixx.idref="167" />
+																												<sixx.object sixx.name="type" sixx.idref="46" />
+																												<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																												<sixx.object sixx.name="name" sixx.idref="159" />
+																												<sixx.object sixx.name="startPoint" sixx.idref="583" />
+																												<sixx.object sixx.id="588" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@100</sixx.object>
+																												<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																											</sixx.object>
+																											<sixx.object sixx.id="589" sixx.type="UniversalInputOutput" sixx.env="Arduino" >
+																												<sixx.object sixx.name="block" sixx.idref="122" />
+																												<sixx.object sixx.name="connection" sixx.idref="167" />
+																												<sixx.object sixx.name="type" sixx.idref="46" />
+																												<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+																												<sixx.object sixx.id="590" sixx.name="name" sixx.type="String" sixx.env="Core" >right</sixx.object>
+																												<sixx.object sixx.id="591" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >23.0d</sixx.object>
+																												<sixx.object sixx.id="592" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@260</sixx.object>
+																												<sixx.object sixx.id="593" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@260</sixx.object>
+																												<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																											</sixx.object>
+																											<sixx.object sixx.id="594" sixx.type="FBDInputOutput" sixx.env="Arduino" >
+																												<sixx.object sixx.name="block" sixx.idref="133" />
+																												<sixx.object sixx.name="connection" sixx.idref="167" />
+																												<sixx.object sixx.name="type" sixx.idref="46" />
+																												<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																												<sixx.object sixx.name="name" sixx.idref="159" />
+																												<sixx.object sixx.id="595" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@290</sixx.object>
+																												<sixx.object sixx.id="596" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@290</sixx.object>
+																												<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																											</sixx.object>
+																											<sixx.object sixx.idref="361" />
+																											<sixx.object sixx.idref="166" />
+																										</sixx.object>
+																										<sixx.object sixx.name="type" sixx.idref="46" />
+																										<sixx.object sixx.name="isTextMode" sixx.type="True" sixx.env="Core" />
+																										<sixx.object sixx.id="597" sixx.name="textRegtangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																											<sixx.object sixx.id="598" sixx.type="Rectangle" sixx.env="Graphics" >815.0d@95.5d corner: 838.0d@104.5d</sixx.object>
+																											<sixx.object sixx.id="599" sixx.type="Rectangle" sixx.env="Graphics" >292@255.5d corner: 315.0d@264.5d</sixx.object>
+																											<sixx.object sixx.id="600" sixx.type="Rectangle" sixx.env="Graphics" >815.0d@285.5d corner: 838.0d@294.5d</sixx.object>
+																											<sixx.object sixx.id="601" sixx.type="Rectangle" sixx.env="Graphics" >785.0d@475.5d corner: 808.0d@484.5d</sixx.object>
+																											<sixx.object sixx.id="602" sixx.type="Rectangle" sixx.env="Graphics" >815.0d@585.5d corner: 838.0d@594.5d</sixx.object>
+																										</sixx.object>
+																										<sixx.object sixx.id="603" sixx.name="textModeName" sixx.type="String" sixx.env="Core" >right</sixx.object>
+																									</sixx.object>
+																									<sixx.object sixx.name="type" sixx.idref="46" />
+																									<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																									<sixx.object sixx.name="name" sixx.idref="159" />
+																									<sixx.object sixx.id="604" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@590</sixx.object>
+																									<sixx.object sixx.id="605" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@590</sixx.object>
+																									<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																								</sixx.object>
+																								<sixx.object sixx.id="606" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@580 corner: 860@600</sixx.object>
+																							</sixx.object>
+																							<sixx.object sixx.id="607" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="402" />
+																								<sixx.object sixx.id="608" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@600 corner: 860@620</sixx.object>
+																							</sixx.object>
+																							<sixx.object sixx.id="609" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="297" />
+																								<sixx.object sixx.id="610" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >900@600 corner: 920@620</sixx.object>
+																							</sixx.object>
+																						</sixx.object>
+																						<sixx.object sixx.id="611" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																							<sixx.object sixx.id="612" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="158" />
+																								<sixx.object sixx.name="value" sixx.idref="160" />
+																							</sixx.object>
+																							<sixx.object sixx.id="613" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="150" />
+																								<sixx.object sixx.id="614" sixx.name="value" sixx.type="Point" sixx.env="Core" >840@570</sixx.object>
+																							</sixx.object>
+																							<sixx.object sixx.id="615" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="166" />
+																								<sixx.object sixx.name="value" sixx.idref="604" />
+																							</sixx.object>
+																							<sixx.object sixx.id="616" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="402" />
+																								<sixx.object sixx.name="value" sixx.idref="403" />
+																							</sixx.object>
+																							<sixx.object sixx.id="617" sixx.type="Association" sixx.env="Core" >
+																								<sixx.object sixx.name="key" sixx.idref="297" />
+																								<sixx.object sixx.name="value" sixx.idref="300" />
+																							</sixx.object>
+																						</sixx.object>
+																						<sixx.object sixx.name="bitNumber" sixx.idref="20" />
+																						<sixx.object sixx.id="618" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+																						</sixx.object>
+																						<sixx.object sixx.id="619" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																							<sixx.object sixx.idref="297" />
+																						</sixx.object>
+																						<sixx.object sixx.id="620" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																							<sixx.object sixx.idref="158" />
+																							<sixx.object sixx.idref="150" />
+																							<sixx.object sixx.idref="166" />
+																							<sixx.object sixx.idref="402" />
+																						</sixx.object>
+																					</sixx.object>
+																					<sixx.object sixx.name="connection" sixx.idref="143" />
+																					<sixx.object sixx.name="type" sixx.idref="46" />
+																					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																					<sixx.object sixx.name="name" sixx.idref="159" />
+																					<sixx.object sixx.name="startPoint" sixx.idref="614" />
+																					<sixx.object sixx.id="621" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@570</sixx.object>
+																					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																				</sixx.object>
+																				<sixx.object sixx.idref="356" />
+																				<sixx.object sixx.idref="507" />
+																			</sixx.object>
+																			<sixx.object sixx.id="622" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >300@170 corner: 300@570</sixx.object>
+																			<sixx.object sixx.name="type" sixx.idref="46" />
+																			<sixx.object sixx.name="isTextMode" sixx.type="True" sixx.env="Core" />
+																			<sixx.object sixx.id="623" sixx.name="textRegtangles" sixx.type="OrderedCollection" sixx.env="Core" >
+																				<sixx.object sixx.id="624" sixx.type="Rectangle" sixx.env="Graphics" >292@315.5d corner: 313.0d@324.5d</sixx.object>
+																				<sixx.object sixx.id="625" sixx.type="Rectangle" sixx.env="Graphics" >817.0d@265.5d corner: 838.0d@274.5d</sixx.object>
+																				<sixx.object sixx.id="626" sixx.type="Rectangle" sixx.env="Graphics" >817.0d@565.5d corner: 838.0d@574.5d</sixx.object>
+																				<sixx.object sixx.id="627" sixx.type="Rectangle" sixx.env="Graphics" >787.0d@455.5d corner: 808.0d@464.5d</sixx.object>
+																				<sixx.object sixx.id="628" sixx.type="Rectangle" sixx.env="Graphics" >817.0d@165.5d corner: 838.0d@174.5d</sixx.object>
+																			</sixx.object>
+																			<sixx.object sixx.id="629" sixx.name="textModeName" sixx.type="String" sixx.env="Core" >stop</sixx.object>
+																		</sixx.object>
+																		<sixx.object sixx.name="type" sixx.idref="46" />
+																		<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+																		<sixx.object sixx.name="name" sixx.idref="159" />
+																		<sixx.object sixx.id="630" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >840@270</sixx.object>
+																		<sixx.object sixx.id="631" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@270</sixx.object>
+																		<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+																	</sixx.object>
+																	<sixx.object sixx.id="632" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@260 corner: 860@280</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="633" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="594" />
+																	<sixx.object sixx.id="634" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@280 corner: 860@300</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="635" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="399" />
+																	<sixx.object sixx.id="636" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >840@300 corner: 860@320</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="637" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="229" />
+																	<sixx.object sixx.id="638" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >900@300 corner: 920@320</sixx.object>
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.id="639" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.id="640" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="132" />
+																	<sixx.object sixx.id="641" sixx.name="value" sixx.type="Point" sixx.env="Core" >840@250</sixx.object>
+																</sixx.object>
+																<sixx.object sixx.id="642" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="142" />
+																	<sixx.object sixx.name="value" sixx.idref="630" />
+																</sixx.object>
+																<sixx.object sixx.id="643" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="594" />
+																	<sixx.object sixx.name="value" sixx.idref="595" />
+																</sixx.object>
+																<sixx.object sixx.id="644" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="399" />
+																	<sixx.object sixx.name="value" sixx.idref="400" />
+																</sixx.object>
+																<sixx.object sixx.id="645" sixx.type="Association" sixx.env="Core" >
+																	<sixx.object sixx.name="key" sixx.idref="229" />
+																	<sixx.object sixx.name="value" sixx.idref="233" />
+																</sixx.object>
+															</sixx.object>
+															<sixx.object sixx.name="bitNumber" sixx.idref="59" />
+															<sixx.object sixx.id="646" sixx.name="type" sixx.type="OrBlockType" sixx.env="Arduino" >
+															</sixx.object>
+															<sixx.object sixx.id="647" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.idref="229" />
+															</sixx.object>
+															<sixx.object sixx.id="648" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+																<sixx.object sixx.idref="132" />
+																<sixx.object sixx.idref="142" />
+																<sixx.object sixx.idref="594" />
+																<sixx.object sixx.idref="399" />
+															</sixx.object>
+														</sixx.object>
+														<sixx.object sixx.name="connection" sixx.idref="130" />
+														<sixx.object sixx.name="type" sixx.idref="46" />
+														<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+														<sixx.object sixx.name="name" sixx.idref="159" />
+														<sixx.object sixx.name="startPoint" sixx.idref="641" />
+														<sixx.object sixx.id="649" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >860@250</sixx.object>
+														<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+													</sixx.object>
+													<sixx.object sixx.idref="158" />
+													<sixx.object sixx.idref="177" />
+													<sixx.object sixx.idref="416" />
+												</sixx.object>
+												<sixx.object sixx.id="650" sixx.name="rectangle" sixx.type="Rectangle" sixx.env="Graphics" >310@80 corner: 310@550</sixx.object>
+												<sixx.object sixx.name="type" sixx.idref="46" />
+												<sixx.object sixx.name="isTextMode" sixx.type="True" sixx.env="Core" />
+												<sixx.object sixx.id="651" sixx.name="textRegtangles" sixx.type="OrderedCollection" sixx.env="Core" >
+													<sixx.object sixx.id="652" sixx.type="Rectangle" sixx.env="Graphics" >292@236.5d corner: 305.0d@243.5d</sixx.object>
+													<sixx.object sixx.id="653" sixx.type="Rectangle" sixx.env="Graphics" >825.0d@246.5d corner: 838.0d@253.5d</sixx.object>
+													<sixx.object sixx.id="654" sixx.type="Rectangle" sixx.env="Graphics" >825.0d@546.5d corner: 838.0d@553.5d</sixx.object>
+													<sixx.object sixx.id="655" sixx.type="Rectangle" sixx.env="Graphics" >825.0d@76.5d corner: 838.0d@83.5d</sixx.object>
+													<sixx.object sixx.id="656" sixx.type="Rectangle" sixx.env="Graphics" >765.0d@376.5d corner: 778.0d@383.5d</sixx.object>
+												</sixx.object>
+												<sixx.object sixx.id="657" sixx.name="textModeName" sixx.type="String" sixx.env="Core" >up</sixx.object>
+											</sixx.object>
+											<sixx.object sixx.name="type" sixx.idref="46" />
+											<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+											<sixx.object sixx.id="658" sixx.name="name" sixx.type="String" sixx.env="Core" >up</sixx.object>
+											<sixx.object sixx.id="659" sixx.name="nameWidth" sixx.type="Double" sixx.env="Core" >13.0d</sixx.object>
+											<sixx.object sixx.id="660" sixx.name="startPoint" sixx.type="Point" sixx.env="Core" >270@240</sixx.object>
+											<sixx.object sixx.id="661" sixx.name="stopPoint" sixx.type="Point" sixx.env="Core" >290@240</sixx.object>
+											<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+										</sixx.object>
+										<sixx.object sixx.id="662" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@230 corner: 290@250</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="663" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="589" />
+										<sixx.object sixx.id="664" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@250 corner: 290@270</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="665" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="391" />
+										<sixx.object sixx.id="666" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@270 corner: 290@290</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="667" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="211" />
+										<sixx.object sixx.id="668" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@290 corner: 290@310</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="669" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="145" />
+										<sixx.object sixx.id="670" sixx.name="value" sixx.type="Rectangle" sixx.env="Graphics" >270@310 corner: 290@330</sixx.object>
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.id="671" sixx.name="inputOutputsAndConnectionsPoints" sixx.type="OrderedCollection" sixx.env="Core" >
+									<sixx.object sixx.id="672" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="129" />
+										<sixx.object sixx.name="value" sixx.idref="661" />
+									</sixx.object>
+									<sixx.object sixx.id="673" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="589" />
+										<sixx.object sixx.name="value" sixx.idref="593" />
+									</sixx.object>
+									<sixx.object sixx.id="674" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="391" />
+										<sixx.object sixx.name="value" sixx.idref="395" />
+									</sixx.object>
+									<sixx.object sixx.id="675" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="211" />
+										<sixx.object sixx.name="value" sixx.idref="215" />
+									</sixx.object>
+									<sixx.object sixx.id="676" sixx.type="Association" sixx.env="Core" >
+										<sixx.object sixx.name="key" sixx.idref="145" />
+										<sixx.object sixx.name="value" sixx.idref="149" />
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="bitNumber" sixx.idref="59" />
+								<sixx.object sixx.name="sensor" sixx.idref="89" />
+								<sixx.object sixx.id="677" sixx.name="buttonOutputs" sixx.type="OrderedCollection" sixx.env="Core" >
+									<sixx.object sixx.id="678" sixx.type="IRRessiveBlockOutputAdapter" sixx.env="Arduino" >
+										<sixx.object sixx.name="output" sixx.idref="129" />
+										<sixx.object sixx.id="679" sixx.name="button" sixx.type="IRButtonItem" sixx.env="Arduino" >
+											<sixx.object sixx.id="680" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF18E7</sixx.object>
+											<sixx.object sixx.name="comment" sixx.idref="658" />
+											<sixx.object sixx.name="pult" sixx.idref="25" />
+											<sixx.object sixx.id="681" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+											<sixx.object sixx.id="682" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+											<sixx.object sixx.id="683" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+										</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="684" sixx.type="IRRessiveBlockOutputAdapter" sixx.env="Arduino" >
+										<sixx.object sixx.name="output" sixx.idref="589" />
+										<sixx.object sixx.id="685" sixx.name="button" sixx.type="IRButtonItem" sixx.env="Arduino" >
+											<sixx.object sixx.id="686" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF5AA5</sixx.object>
+											<sixx.object sixx.name="comment" sixx.idref="590" />
+											<sixx.object sixx.name="pult" sixx.idref="25" />
+											<sixx.object sixx.id="687" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+											<sixx.object sixx.id="688" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+											<sixx.object sixx.id="689" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+										</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="690" sixx.type="IRRessiveBlockOutputAdapter" sixx.env="Arduino" >
+										<sixx.object sixx.name="output" sixx.idref="391" />
+										<sixx.object sixx.id="691" sixx.name="button" sixx.type="IRButtonItem" sixx.env="Arduino" >
+											<sixx.object sixx.id="692" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF10EF</sixx.object>
+											<sixx.object sixx.name="comment" sixx.idref="392" />
+											<sixx.object sixx.name="pult" sixx.idref="25" />
+											<sixx.object sixx.id="693" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+											<sixx.object sixx.id="694" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+											<sixx.object sixx.id="695" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+										</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="696" sixx.type="IRRessiveBlockOutputAdapter" sixx.env="Arduino" >
+										<sixx.object sixx.name="output" sixx.idref="211" />
+										<sixx.object sixx.id="697" sixx.name="button" sixx.type="IRButtonItem" sixx.env="Arduino" >
+											<sixx.object sixx.id="698" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF4AB5</sixx.object>
+											<sixx.object sixx.name="comment" sixx.idref="212" />
+											<sixx.object sixx.name="pult" sixx.idref="25" />
+											<sixx.object sixx.id="699" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+											<sixx.object sixx.id="700" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+											<sixx.object sixx.id="701" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+										</sixx.object>
+									</sixx.object>
+									<sixx.object sixx.id="702" sixx.type="IRRessiveBlockOutputAdapter" sixx.env="Arduino" >
+										<sixx.object sixx.name="output" sixx.idref="145" />
+										<sixx.object sixx.id="703" sixx.name="button" sixx.type="IRButtonItem" sixx.env="Arduino" >
+											<sixx.object sixx.id="704" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF38C7</sixx.object>
+											<sixx.object sixx.name="comment" sixx.idref="146" />
+											<sixx.object sixx.name="pult" sixx.idref="25" />
+											<sixx.object sixx.id="705" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+											<sixx.object sixx.id="706" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+											<sixx.object sixx.id="707" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+										</sixx.object>
+									</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="resetOutput" sixx.type="True" sixx.env="Core" />
+							</sixx.object>
+							<sixx.object sixx.idref="244" />
+							<sixx.object sixx.idref="444" />
+							<sixx.object sixx.idref="310" />
+							<sixx.object sixx.idref="217" />
+							<sixx.object sixx.idref="370" />
+							<sixx.object sixx.idref="285" />
+							<sixx.object sixx.idref="133" />
+							<sixx.object sixx.idref="347" />
+							<sixx.object sixx.idref="151" />
+							<sixx.object sixx.idref="170" />
+							<sixx.object sixx.idref="188" />
+							<sixx.object sixx.idref="201" />
+							<sixx.object sixx.idref="538" />
+							<sixx.object sixx.idref="381" />
+						</sixx.object>
+						<sixx.object sixx.id="708" sixx.name="height" sixx.type="SmallInteger" sixx.env="Core" >710</sixx.object>
+					</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.name="project" sixx.idref="2" />
+				<sixx.object sixx.id="709" sixx.name="networksAndIntervals" sixx.type="OrderedCollection" sixx.env="Core" >
+					<sixx.object sixx.id="710" sixx.type="Association" sixx.env="Core" >
+						<sixx.object sixx.name="key" sixx.idref="23" />
+						<sixx.object sixx.id="711" sixx.name="value" sixx.type="Interval" sixx.env="Core" >(0 to: 710)</sixx.object>
+					</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.id="712" sixx.name="variables" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+			</sixx.object>
+			<sixx.object sixx.id="713" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+			<sixx.object sixx.id="714" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+				<sixx.object sixx.idref="549" />
+				<sixx.object sixx.idref="255" />
+				<sixx.object sixx.idref="455" />
+				<sixx.object sixx.idref="321" />
+				<sixx.object sixx.id="715" sixx.type="FBDOutputTag" sixx.env="Arduino" >
+					<sixx.object sixx.id="716" sixx.name="comment" sixx.type="String" sixx.env="Core" >led13</sixx.object>
+					<sixx.object sixx.name="isGlobal" sixx.type="True" sixx.env="Core" />
+					<sixx.object sixx.id="717" sixx.name="name" sixx.type="String" sixx.env="Core" >led</sixx.object>
+					<sixx.object sixx.name="type" sixx.idref="258" />
+					<sixx.object sixx.name="bitNumber" sixx.idref="326" />
+					<sixx.object sixx.id="718" sixx.name="pinNumber" sixx.type="ControllerPinAsNumberAdaptor" sixx.env="Arduino" >
+						<sixx.object sixx.id="719" sixx.name="pin" sixx.type="ArduinoDigitalInputOutputDescription" sixx.env="Arduino" >
+							<sixx.object sixx.id="720" sixx.name="number" sixx.type="SmallInteger" sixx.env="Core" >13</sixx.object>
+							<sixx.object sixx.id="721" sixx.name="positionPoint" sixx.type="Point" sixx.env="Core" >396@286</sixx.object>
+							<sixx.object sixx.name="alternaniveName" sixx.idref="263" />
+							<sixx.object sixx.name="alias" sixx.idref="264" />
+							<sixx.object sixx.id="722" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >200657154</sixx.object>
+							<sixx.object sixx.name="isShim" sixx.type="False" sixx.env="Core" />
+							<sixx.object sixx.name="isUseAsRxSoftwareSerial" sixx.type="True" sixx.env="Core" />
+						</sixx.object>
+					</sixx.object>
+				</sixx.object>
+			</sixx.object>
+			<sixx.object sixx.id="723" sixx.name="globalVariable" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+			<sixx.object sixx.name="isFBD" sixx.type="True" sixx.env="Core" />
+			<sixx.object sixx.id="724" sixx.name="comPorts" sixx.type="Dictionary" sixx.env="Core" >
+				<sixx.object sixx.id="725" sixx.type="Association" sixx.env="Core" >
+					<sixx.object sixx.name="key" sixx.idref="110" />
+					<sixx.object sixx.name="value" sixx.idref="111" />
+				</sixx.object>
+			</sixx.object>
+			<sixx.object sixx.name="useWachDog" sixx.type="False" sixx.env="Core" />
+			<sixx.object sixx.id="726" sixx.name="whenWorkIsSkech" sixx.type="Symbol" sixx.env="Core" >arduinoIDE</sixx.object>
+			<sixx.object sixx.id="727" sixx.name="communucationRings" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+			<sixx.object sixx.id="728" sixx.name="startingValueInTheEEPROMCode" sixx.type="SmallInteger" sixx.env="Core" >39</sixx.object>
+			<sixx.object sixx.id="729" sixx.name="eepromMemory" sixx.type="EEPROMMemory" sixx.env="Arduino" >
+				<sixx.object sixx.name="project" sixx.idref="2" />
+				<sixx.object sixx.id="730" sixx.name="chips" sixx.type="OrderedCollection" sixx.env="Core" >
+					<sixx.object sixx.id="731" sixx.type="InternalEEPROMMemoryChip" sixx.env="Arduino" >
+						<sixx.object sixx.id="732" sixx.name="sizeInBytes" sixx.type="SmallInteger" sixx.env="Core" >1024</sixx.object>
+						<sixx.object sixx.id="733" sixx.name="id" sixx.type="SmallInteger" sixx.env="Core" >152283557</sixx.object>
+						<sixx.object sixx.name="isUsed" sixx.type="True" sixx.env="Core" />
+					</sixx.object>
+				</sixx.object>
+			</sixx.object>
+			<sixx.object sixx.id="734" sixx.name="descriptorName" sixx.type="String" sixx.env="Core" >Arduino Uno</sixx.object>
+			<sixx.object sixx.id="735" sixx.name="descriptorId" sixx.type="SmallInteger" sixx.env="Core" >142360727</sixx.object>
+		</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.name="programmVersionNamberFirstPart" sixx.idref="20" />
+	<sixx.object sixx.name="programmVersionNamberSecondPart" sixx.idref="18" />
+	<sixx.object sixx.name="programmVersionNambeLastPart" sixx.idref="18" />
+</sixx.object>

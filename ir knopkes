@@ -1,0 +1,138 @@
+<sixx.object sixx.id="0" sixx.type="OrderedCollection" sixx.env="Core" >
+	<sixx.object sixx.id="1" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="2" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFA25D</sixx.object>
+		<sixx.object sixx.id="3" sixx.name="comment" sixx.type="String" sixx.env="Core" >1</sixx.object>
+		<sixx.object sixx.id="4" sixx.name="pult" sixx.type="String" sixx.env="Core" ></sixx.object>
+		<sixx.object sixx.id="5" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="6" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="7" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="8" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="9" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF629D</sixx.object>
+		<sixx.object sixx.id="10" sixx.name="comment" sixx.type="String" sixx.env="Core" >2</sixx.object>
+		<sixx.object sixx.id="11" sixx.name="pult" sixx.type="String" sixx.env="Core" ></sixx.object>
+		<sixx.object sixx.id="12" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="13" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="14" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="15" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="16" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFE21D</sixx.object>
+		<sixx.object sixx.id="17" sixx.name="comment" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="18" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="19" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="20" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="21" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="22" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF22DD</sixx.object>
+		<sixx.object sixx.id="23" sixx.name="comment" sixx.type="String" sixx.env="Core" >4</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="24" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="25" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="26" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="27" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="28" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF02FD</sixx.object>
+		<sixx.object sixx.id="29" sixx.name="comment" sixx.type="String" sixx.env="Core" >5</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="30" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="31" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="32" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="33" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="34" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFC23D</sixx.object>
+		<sixx.object sixx.id="35" sixx.name="comment" sixx.type="String" sixx.env="Core" >6</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="36" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="37" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="38" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="39" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="40" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFE01F</sixx.object>
+		<sixx.object sixx.id="41" sixx.name="comment" sixx.type="String" sixx.env="Core" >7</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="42" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="43" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="44" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="45" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="46" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFA857</sixx.object>
+		<sixx.object sixx.id="47" sixx.name="comment" sixx.type="String" sixx.env="Core" >8</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="48" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="49" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="50" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="51" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="52" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF906F</sixx.object>
+		<sixx.object sixx.id="53" sixx.name="comment" sixx.type="String" sixx.env="Core" >9</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="54" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="55" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="56" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="57" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="58" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF9867</sixx.object>
+		<sixx.object sixx.id="59" sixx.name="comment" sixx.type="String" sixx.env="Core" >0</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="60" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="61" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="62" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="63" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="64" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF6897</sixx.object>
+		<sixx.object sixx.id="65" sixx.name="comment" sixx.type="String" sixx.env="Core" >&#42;</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="66" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="67" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="68" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="69" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="70" sixx.name="addres" sixx.type="String" sixx.env="Core" >FFB04F</sixx.object>
+		<sixx.object sixx.id="71" sixx.name="comment" sixx.type="String" sixx.env="Core" >&#35;</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="72" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="73" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="74" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="75" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="76" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF18E7</sixx.object>
+		<sixx.object sixx.id="77" sixx.name="comment" sixx.type="String" sixx.env="Core" >up</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="78" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="79" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="80" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="81" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="82" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF5AA5</sixx.object>
+		<sixx.object sixx.id="83" sixx.name="comment" sixx.type="String" sixx.env="Core" >right</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="84" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="85" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="86" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="87" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="88" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF10EF</sixx.object>
+		<sixx.object sixx.id="89" sixx.name="comment" sixx.type="String" sixx.env="Core" >left</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="90" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="91" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="92" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="93" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="94" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF4AB5</sixx.object>
+		<sixx.object sixx.id="95" sixx.name="comment" sixx.type="String" sixx.env="Core" >down</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="96" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="97" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="98" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+	<sixx.object sixx.id="99" sixx.type="IRButtonItem" sixx.env="Arduino" >
+		<sixx.object sixx.id="100" sixx.name="addres" sixx.type="String" sixx.env="Core" >FF38C7</sixx.object>
+		<sixx.object sixx.id="101" sixx.name="comment" sixx.type="String" sixx.env="Core" >ok</sixx.object>
+		<sixx.object sixx.name="pult" sixx.idref="11" />
+		<sixx.object sixx.id="102" sixx.name="type" sixx.type="String" sixx.env="Core" >NEC</sixx.object>
+		<sixx.object sixx.id="103" sixx.name="typeIndex" sixx.type="String" sixx.env="Core" >3</sixx.object>
+		<sixx.object sixx.id="104" sixx.name="codeSize" sixx.type="String" sixx.env="Core" >32</sixx.object>
+	</sixx.object>
+</sixx.object>
